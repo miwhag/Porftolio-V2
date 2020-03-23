@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:100, 300,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,700,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Raleway:300&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -73,14 +73,14 @@ main {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100vw;
-  background-color: whitesmoke;
+  background-color: white;
 }
 
 .Skills-about-me-greeting {
-  font-size: 40px;
-  font-weight: bolder;
+  font-size: 35px;
   display: -ms-grid;
   display: grid;
+  font-weight: 900;
   -ms-grid-rows: 40% 100%;
       grid-template-rows: 40% 100%;
   -webkit-box-pack: center;
@@ -91,7 +91,7 @@ main {
   margin-bottom: 10px;
 }
 
-.Skills-about-me-paragraph {
+.Skills-about-me-greeting p {
   text-align: center;
   width: 60em;
   font-size: 15px;
@@ -116,7 +116,7 @@ main {
       align-self: center;
   height: 250px;
   width: 250px;
-  background-color: white;
+  background-color: whitesmoke;
   color: #222831;
   margin: 20px;
   font-size: 15px;
@@ -161,6 +161,12 @@ main {
   padding: 2em;
   font-family: 'Noto Sans JP', sans-serif;
   list-style-type: circle;
+  color: #222831;
+}
+
+.divider {
+  width: 80wv;
+  height: 20px;
   color: #222831;
 }
 
@@ -217,8 +223,8 @@ body {
 .HomePage-main-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 80vh 85vh 50vh;
-      grid-template-rows: 80vh 85vh 50vh;
+  -ms-grid-rows: 80vh 150vh 50vh;
+      grid-template-rows: 80vh 150vh 50vh;
   font-family: 'Raleway', sans-serif;
   color: #4d4646;
   width: 100vw;
@@ -232,8 +238,8 @@ header {
       -ms-flex-pack: end;
           justify-content: flex-end;
   width: 100vw;
-  background: #211717;
-  background: linear-gradient(45deg, #211717 26%, #4f4444 77%);
+  background: #1e1e1e;
+  background: linear-gradient(45deg, #1e1e1e 50%, #3d3d3d 89%);
 }
 
 .greeting-container {
