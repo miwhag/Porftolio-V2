@@ -1,0 +1,65 @@
+@import '../meyerReset';
+@import '../variables';
+
+.Typewriter-blog-post-header{
+    font-size: 2.3em;
+    padding: 1em 1em 0em 1em;
+    background-color:  white;
+  
+  }
+  
+  .BlogHome-container{
+      display: flex;
+      height: 20em;
+    }
+    
+  
+    .BlogHome-medium-image{
+      width: 27em;
+      padding: 1em 4em 4em 8em;
+      margin-top: 1em;
+    }
+  
+    .BlogHome-typewriter-container{
+        align-self: center;
+        display: flex;
+      flex-direction: column;
+    }
+  
+  .typewriter{
+      display:flex;
+      justify-content: center;
+  }
+  
+  .Typewriter-Header{
+    color: #a96851;
+      font-size: 30px;
+      margin-left: -1.5em;
+      margin-top: 0.5em;
+      font-family: 'Noto Sans JP', sans-serif;
+      font-weight: 700;
+  }
+  
+  Typewriter-response-wrapper{
+      font-size: 28px;
+      display: flex;
+      height: 3em;
+      font-family: 'Noto Sans JP', sans-serif;
+      margin-top: 0.7em;
+      margin-left: -9em;
+  }
+  
+  .Typewriter-medium-link{
+      padding-top:3em;
+      margin-left: 6em;
+      text-decoration: none;
+      color: #444444;
+      font-size: 1em;
+  }
+  
+  .Typewriter-green-icon{
+     height: 4em;
+  }
+  
+  
+  

@@ -1,0 +1,131 @@
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.Skills-main-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    background-color: whitesmoke;
+}
+
+.Skills-about-me-greeting{
+    font-size: 40px;
+    font-weight: bolder;
+    display: grid;
+    grid-template-rows: 40% 100%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    }
+    
+.Skills-about-me-paragraph{
+    text-align: center;
+    width: 60em;
+    font-size: 15px;
+    line-height: 1.1em;
+
+    }
+
+.Skills-box-container{
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    
+    }
+
+.box-1, .box-2, .box-3{
+box-shadow: 12px 17px 15px #868686;
+border-radius:15px;
+align-self: center;
+height: 250px;
+width: 250px;
+background-color: white;
+color: #222831;
+margin: 20px;
+font-size: 15px;
+display: grid;
+grid-template-columns: auto;
+grid-template-rows: 32% 6.5% 9% 50%;
+}
+
+.box-1:hover, .box-2:hover, .box-3:hover  {
+    transform: scale(1.03); 
+  }
+
+    
+.Skills-icon{
+    width: 40px;
+    justify-self: center;
+    margin: 34px;
+}
+
+
+.Skills-header-text{
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: bold;
+    color: #222831;
+}
+
+
+.Skills-header-sub-text{
+    font-size: 12px;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    padding: 0.4em 2em 1em 2em;
+  }
+    
+.Skills-box-text-content{
+    margin-left: 4em;
+    font-size: 0.8em;
+    padding: 2em;
+    font-family: 'Noto Sans JP', sans-serif;
+    list-style-type: circle;
+    color: #222831;
+}
+    
+    
+@media screen and (max-width: 1050px){
+
+    .Skills-about-me-paragraph{
+        width: 50em;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .Skills-about-me-paragraph{
+        width: 40em;
+    }
+
+    .Skills-header-sub-text{
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width: 450px){
+
+    .Skills-about-me-paragraph{
+        width: 22em;
+    }
+
+    .Skills-box-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 2em;
+    }
+
+    .box-1, .box-2, .box-3{
+        width: 20em;
+        height: 15em;
+        justify-content: center;
+    }
+
+}

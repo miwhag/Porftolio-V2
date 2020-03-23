@@ -1,0 +1,298 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:100, 300,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Skills-main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100vw;
+  background-color: whitesmoke;
+}
+
+.Skills-about-me-greeting {
+  font-size: 40px;
+  font-weight: bolder;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 40% 100%;
+      grid-template-rows: 40% 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.Skills-about-me-paragraph {
+  text-align: center;
+  width: 60em;
+  font-size: 15px;
+  line-height: 1.1em;
+}
+
+.Skills-box-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2em;
+}
+
+.box-1, .box-2, .box-3 {
+  -webkit-box-shadow: 12px 17px 15px #868686;
+          box-shadow: 12px 17px 15px #868686;
+  border-radius: 15px;
+  -ms-grid-row-align: center;
+      align-self: center;
+  height: 250px;
+  width: 250px;
+  background-color: white;
+  color: #222831;
+  margin: 20px;
+  font-size: 15px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto;
+      grid-template-columns: auto;
+  -ms-grid-rows: 32% 6.5% 9% 50%;
+      grid-template-rows: 32% 6.5% 9% 50%;
+}
+
+.box-1:hover, .box-2:hover, .box-3:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
+.Skills-icon {
+  width: 40px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  margin: 34px;
+}
+
+.Skills-header-text {
+  text-align: center;
+  font-size: 1em;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold;
+  color: #222831;
+}
+
+.Skills-header-sub-text {
+  font-size: 12px;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: center;
+  padding: 0.4em 2em 1em 2em;
+}
+
+.Skills-box-text-content {
+  margin-left: 4em;
+  font-size: 0.8em;
+  padding: 2em;
+  font-family: 'Noto Sans JP', sans-serif;
+  list-style-type: circle;
+  color: #222831;
+}
+
+@media screen and (max-width: 1050px) {
+  .Skills-about-me-paragraph {
+    width: 50em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Skills-about-me-paragraph {
+    width: 40em;
+  }
+  .Skills-header-sub-text {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .Skills-about-me-paragraph {
+    width: 22em;
+  }
+  .Skills-box-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 2em;
+  }
+  .box-1, .box-2, .box-3 {
+    width: 20em;
+    height: 15em;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+main {
+  display: -ms-grid;
+  display: grid;
+}
+
+body {
+  width: 100vw;
+}
+
+.HomePage-main-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 80vh 85vh 50vh;
+      grid-template-rows: 80vh 85vh 50vh;
+  font-family: 'Raleway', sans-serif;
+  color: #4d4646;
+  width: 100vw;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  width: 100vw;
+  background: #211717;
+  background: linear-gradient(45deg, #211717 26%, #4f4444 77%);
+}
+
+.greeting-container {
+  font-size: 45px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-left: 2.6em;
+  border: none;
+  color: white;
+}
+
+.greeting-container p {
+  font-size: 25px;
+  color: #a96851;
+}
+
+@media screen and (max-width: 768px) {
+  .HomePage-main-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .greeting-container {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .HomePage-main-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .greeting-container {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .HomePage-main-container svg {
+    display: none;
+  }
+  .greeting-container {
+    font-size: 40px;
+    height: 100vh;
+    display: -ms-grid;
+    display: grid;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    margin-left: 2.2em;
+  }
+}
+/*# sourceMappingURL=HomePage.css.map */

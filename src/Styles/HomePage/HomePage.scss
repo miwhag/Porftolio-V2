@@ -1,0 +1,79 @@
+@import '../meyerReset';
+@import '../variables';
+@import '../HomePage//skills';
+
+main{
+    display: grid;
+}
+body{
+    width: 100vw;
+}
+
+.HomePage-main-container{
+    display: grid;
+    grid-template-rows: 80vh 85vh 50vh;
+    font-family: 'Raleway', sans-serif;
+    color:#4d4646;
+    width: 100vw;
+}
+
+header {
+        display: flex;
+        justify-content: flex-end;
+        width: 100vw;
+        background: rgb(33,23,23);
+        background: linear-gradient(45deg, rgba(33,23,23,1) 26%, rgba(79,68,68,1) 77%);
+}
+
+.greeting-container{
+    font-size:45px; 
+    align-self: center;
+    margin-left: 2.6em;
+    border: none;
+    color: white;
+    p{
+        font-size: 25px;
+        color: #a96851;
+    }
+}
+
+
+
+@media screen and (max-width: 768px){
+
+    .HomePage-main-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .greeting-container{
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+
+    .HomePage-main-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .greeting-container{
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width: 450px){
+
+    .HomePage-main-container svg{
+        display: none;
+    }
+    .greeting-container{
+        font-size: 40px;
+        height: 100vh;
+        display: grid;
+        align-content: center;
+        margin-left: 2.2em;
+    }
+}
+
