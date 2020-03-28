@@ -234,16 +234,15 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
   width: 100vw;
   background: #1e1e1e;
-  background: linear-gradient(45deg, #1e1e1e 50%, #3d3d3d 89%);
+  background: linear-gradient(45deg, #1e1e1e 34%, rgba(61, 61, 61, 0.972426) 100%);
 }
 
 .greeting-container {
   font-size: 45px;
+  background-color: green;
+  height: 100%;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;

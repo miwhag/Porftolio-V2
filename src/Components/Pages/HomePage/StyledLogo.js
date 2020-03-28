@@ -1,4 +1,4 @@
-import { ReactComponent as ReactLogo } from '../../../Images/image.svg'
+import { ReactComponent as ReactLogo } from '../../../Images/miwha_img.svg'
 import styled from 'styled-components'
 import { keyframes } from 'styled-components'
 import '../../../Styles/HomePage/HomePage.css'
@@ -20,6 +20,7 @@ const pulse = keyframes`
 export const StyledLogo = styled(ReactLogo)`
 border: none;
 width: 55em;
+height: 50em;
 
 #circle{
   animation: ${pulse} infinite 6s linear;

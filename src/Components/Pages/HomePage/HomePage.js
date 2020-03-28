@@ -9,8 +9,9 @@ export default function HomePage() {
     return (
         <div className="HomePage-main-container">
             <header>
-               <HomePageGreeting />
-               <StyledLogo />
+            <StyledLogo />
+            <HomePageGreeting />
+             
             </header>
 
             <main>
