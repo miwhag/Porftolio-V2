@@ -9,20 +9,23 @@
    padding-bottom: 3em;
 }
 
-
 #Cake-title-container{
     #CakeProject-title{
-        font-size: 2.6em;
-        padding: 1em 0em 0.5em 0em;
+        font-size: 7em;
         display: flex;
+        justify-content: flex-end;
+        font-family: $primaryFont;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
     }
     #CakeProject-block{
-        width: 12em;
-        height: 7px;
+        width: 14em;
+        height: 5px;
+        margin-left: 0.3em;
         background-color: #a96851;
-        justify-self: flex-start;
-    
+        justify-self: left;
     }
+
     display: grid;
     justify-content: flex-start;
     margin: 1em 0em 1em 7em;

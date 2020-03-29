@@ -19,15 +19,14 @@
 
     #Blog-title-container{
       #Blog-title{
-        font-size: 2.5em;
+        font-size: 2.2em;
+        display: flex;
+        justify-content: flex-end;
+        font-family: $primaryFont;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
       }
-      #Blog-title-block{
-        width: 10em;
-        height: 7px;
-        background-color: #a96851;
-        margin: 0.5em 0em 1em 0em;
-        justify-self: flex-end;
-      }
+      
       display: grid;
       justify-content: flex-end;
       margin: 4em 8em -6em 3em;

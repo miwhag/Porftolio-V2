@@ -79,15 +79,16 @@ table {
 }
 
 #Blog-title-container #Blog-title {
-  font-size: 2.5em;
-}
-
-#Blog-title-container #Blog-title-block {
-  width: 10em;
-  height: 7px;
-  background-color: #a96851;
-  margin: 0.5em 0em 1em 0em;
-  justify-self: flex-end;
+  font-size: 2.2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
 }
 
 .BlogHome-typewriter-container {

@@ -29,7 +29,7 @@ main{
     }
     #Skills-greeting-block{
         width: 5em;
-        height: 7px;
+        height: 5px;
         background-color: #a96851;
         margin: 0.5em 0em 1em 0em;
         justify-self: center;
@@ -47,7 +47,8 @@ border-radius:15px;
 align-self: center;
 height: 300px;
 width: 300px;
-background-color: whitesmoke;
+background: rgb(250,250,250);
+background: linear-gradient(180deg, rgba(250,250,250,1) 0%, rgba(237,237,237,1) 100%);
 color: #222831;
 margin: 20px;
 display: grid;
@@ -57,7 +58,6 @@ grid-template-rows: repeat(4, auto)
 
 .box-1:hover, .box-2:hover, .box-3:hover  {
     transform: scale(1.03); 
-    background-color: $tanBackgroundColor;
   }
 
     

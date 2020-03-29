@@ -99,7 +99,7 @@ main {
 
 .Skills-about-me-greeting #Skills-greeting-block {
   width: 5em;
-  height: 7px;
+  height: 5px;
   background-color: #a96851;
   margin: 0.5em 0em 1em 0em;
   -ms-grid-column-align: center;
@@ -124,7 +124,9 @@ main {
       align-self: center;
   height: 300px;
   width: 300px;
-  background-color: whitesmoke;
+  background: #fafafa;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#ededed));
+  background: linear-gradient(180deg, #fafafa 0%, #ededed 100%);
   color: #222831;
   margin: 20px;
   display: -ms-grid;
@@ -138,7 +140,6 @@ main {
 .box-1:hover, .box-2:hover, .box-3:hover {
   -webkit-transform: scale(1.03);
           transform: scale(1.03);
-  background-color: #fcf9ea;
 }
 
 .Skills-icon {

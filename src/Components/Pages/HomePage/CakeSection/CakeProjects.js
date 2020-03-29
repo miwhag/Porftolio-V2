@@ -2,6 +2,7 @@ import React from 'react'
 import '../../../../Styles/HomePage/CakeProjects.css'
 import Carousel, { Dots } from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
+import Fade from 'react-reveal';
 
 
 
@@ -10,10 +11,12 @@ export default function CakeProjects() {
         <div className="CakeProjects">
             <div className="CakeProject-container">
 
-            <div id="Cake-title-container">
-                <h1 id="CakeProject-title"> Cake Designs</h1>
-                <div id="CakeProject-block"></div>
-            </div>
+           <Fade left>
+               <div id="Cake-title-container">
+                    <h1 id="CakeProject-title"> Cake Designs</h1>
+                    <div id="CakeProject-block"></div>
+                </div>
+            </Fade> 
                 
                 <Carousel
                  centered
