@@ -65,9 +65,6 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -77,25 +74,36 @@ main {
 }
 
 .Skills-about-me-greeting {
-  font-size: 35px;
+  font-size: 50px;
   display: -ms-grid;
   display: grid;
   font-weight: 900;
-  -ms-grid-rows: 40% 100%;
-      grid-template-rows: 40% 100%;
+  -ms-grid-rows: (auto)[4];
+      grid-template-rows: repeat(4, auto);
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  padding: 2em 0em 0.5em 0em;
   margin-top: 30px;
-  margin-bottom: 10px;
 }
 
 .Skills-about-me-greeting p {
-  text-align: center;
-  width: 60em;
-  font-size: 15px;
-  line-height: 1.1em;
+  text-align: left;
+  width: 50em;
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.5em;
+}
+
+.Skills-about-me-greeting #Skills-greeting-block {
+  width: 5em;
+  height: 7px;
+  background-color: #a96851;
+  margin: 0.5em 0em 1em 0em;
+  -ms-grid-column-align: center;
+      justify-self: center;
 }
 
 .Skills-box-container {
@@ -105,7 +113,7 @@ main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 2em;
+  padding: 2em 2em 8em 2em;
 }
 
 .box-1, .box-2, .box-3 {
@@ -114,59 +122,53 @@ main {
   border-radius: 15px;
   -ms-grid-row-align: center;
       align-self: center;
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
   background-color: whitesmoke;
   color: #222831;
   margin: 20px;
-  font-size: 15px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: auto;
       grid-template-columns: auto;
-  -ms-grid-rows: 32% 6.5% 9% 50%;
-      grid-template-rows: 32% 6.5% 9% 50%;
+  -ms-grid-rows: (auto)[4];
+      grid-template-rows: repeat(4, auto);
 }
 
 .box-1:hover, .box-2:hover, .box-3:hover {
   -webkit-transform: scale(1.03);
           transform: scale(1.03);
+  background-color: #fcf9ea;
 }
 
 .Skills-icon {
   width: 40px;
   -ms-grid-column-align: center;
       justify-self: center;
-  margin: 34px;
+  margin-top: 34px;
 }
 
 .Skills-header-text {
   text-align: center;
-  font-size: 1em;
+  font-size: 1.2em;
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: bold;
   color: #222831;
 }
 
 .Skills-header-sub-text {
-  font-size: 12px;
+  font-size: 14px;
   font-family: 'Noto Sans JP', sans-serif;
   text-align: center;
-  padding: 0.4em 2em 1em 2em;
+  padding: 0em 1.5em 0em 1.5em;
 }
 
 .Skills-box-text-content {
   margin-left: 4em;
-  font-size: 0.8em;
-  padding: 2em;
+  font-size: 16px;
+  padding-bottom: 3em;
   font-family: 'Noto Sans JP', sans-serif;
   list-style-type: circle;
-  color: #222831;
-}
-
-.divider {
-  width: 80wv;
-  height: 20px;
   color: #222831;
 }
 
@@ -216,37 +218,50 @@ main {
   display: grid;
 }
 
-body {
-  width: 100vw;
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .HomePage-main-container {
   display: -ms-grid;
   display: grid;
-  -ms-grid-rows: 80vh 150vh 50vh;
-      grid-template-rows: 80vh 150vh 50vh;
+  -ms-grid-rows: (auto)[3];
+      grid-template-rows: repeat(3, auto);
   font-family: 'Raleway', sans-serif;
   color: #4d4646;
-  width: 100vw;
 }
 
 header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100vw;
   background: #1e1e1e;
   background: linear-gradient(45deg, #1e1e1e 34%, rgba(61, 61, 61, 0.972426) 100%);
 }
 
+#StyledLogo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
 .greeting-container {
-  font-size: 45px;
-  background-color: green;
-  height: 100%;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
-  margin-left: 2.6em;
+  font-size: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2em;
   border: none;
   color: white;
 }
@@ -254,6 +269,12 @@ header {
 .greeting-container p {
   font-size: 25px;
   color: #a96851;
+}
+
+#Divider {
+  height: 4px;
+  background-color: whitesmoke;
+  margin: 0em 7em 0em 7em;
 }
 
 @media screen and (max-width: 768px) {

@@ -4,22 +4,36 @@
 .Typewriter-blog-post-header{
     font-size: 2.3em;
     padding: 1em 1em 0em 1em;
-    background-color:  white;
-  
   }
   
   .BlogHome-container{
       display: flex;
-      height: 20em;
     }
-    
   
     .BlogHome-medium-image{
-      width: 27em;
-      padding: 1em 4em 4em 8em;
-      margin-top: 1em;
+      width: 32em;
+      padding: 2em;
+      margin: 2em 0em 2em 10em;
     }
+
+
+    #Blog-title-container{
+      #Blog-title{
+        font-size: 2.5em;
+      }
+      #Blog-title-block{
+        width: 10em;
+        height: 7px;
+        background-color: #a96851;
+        margin: 0.5em 0em 1em 0em;
+        justify-self: flex-end;
+      }
+      display: grid;
+      justify-content: flex-end;
+      margin: 4em 8em -6em 3em;
   
+    }
+
     .BlogHome-typewriter-container{
         align-self: center;
         display: flex;
@@ -28,30 +42,25 @@
   
   .typewriter{
       display:flex;
-      justify-content: center;
   }
   
   .Typewriter-Header{
-    color: #a96851;
-      font-size: 30px;
-      margin-left: -1.5em;
-      margin-top: 0.5em;
+      color: #a96851;
+      font-size: 42px;
+      margin: 0.5em 0.5em 0em 0em;
       font-family: 'Noto Sans JP', sans-serif;
       font-weight: 700;
   }
   
   Typewriter-response-wrapper{
-      font-size: 28px;
+      font-size: 40px;
       display: flex;
-      height: 3em;
       font-family: 'Noto Sans JP', sans-serif;
       margin-top: 0.7em;
-      margin-left: -9em;
+  
   }
   
   .Typewriter-medium-link{
-      padding-top:3em;
-      margin-left: 6em;
       text-decoration: none;
       color: #444444;
       font-size: 1em;

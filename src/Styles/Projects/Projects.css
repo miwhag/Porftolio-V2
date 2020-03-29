@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:100, 300,700&display=swap");
+.Project-section-title {
+  font-size: 2.4em;
+  text-align: end;
+  padding: 1em 2em 1em 0em;
+}
+
+.Project-project-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.project {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (auto)[4];
+      grid-template-rows: repeat(4, auto);
+  width: 26em;
+  height: 22em;
+  background-color: white;
+  margin: 1em;
+  padding: 1em;
+  -webkit-box-shadow: 5px 2px 10px #888888;
+          box-shadow: 5px 2px 10px #888888;
+  border-radius: 9px;
+}
+
+.project:hover {
+  -webkit-box-shadow: 10px 5px 20px 0px #888888;
+          box-shadow: 10px 5px 20px 0px #888888;
+}
+
+.project-title {
+  font-size: 1.2em;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #222831;
+  font-weight: bolder;
+}
+
+.coffee-gif, .frisbee-gif, .portfolio-gif, .mod-4, .capstone {
+  width: 22em;
+  padding: 1em;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.Project-github-logo {
+  width: 1.5em;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+.project-about {
+  font-size: 0.9em;
+  text-align: center;
+  margin: 0em 2em 0em 2em;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+/*# sourceMappingURL=Projects.css.map */

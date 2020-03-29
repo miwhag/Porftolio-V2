@@ -19,8 +19,8 @@ const pulse = keyframes`
 `;
 export const StyledLogo = styled(ReactLogo)`
 border: none;
-width: 55em;
-height: 50em;
+width: 52em;
+height: 42em;
 
 #circle{
   animation: ${pulse} infinite 6s linear;

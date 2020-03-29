@@ -1,0 +1,141 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+footer {
+  background-color: #323232;
+  background-image: url("https://i.ibb.co/LdRLTm3/classy-fabric.png");
+  color: #5d5b6a;
+  padding: 0.3em;
+}
+
+.signature {
+  width: 10em;
+  height: 5em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.Footer-main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Footer-signature-links-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-right: 0em 4em 0em 4em;
+}
+
+.Footer-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-size: 1em;
+  font-weight: 900;
+  padding: 1em 0em 1em 0em;
+}
+
+.Footer-links {
+  width: 2em;
+  height: 2em;
+  margin: 0.5em;
+}
+
+.Footer-get-connected-container, .Footer-get-connected-container {
+  margin: 2.1em 1em 1em 1em;
+  width: 26em;
+}
+
+.Footer-signature-links-container {
+  margin: 2.1em 1em 1em 1em;
+  width: 13em;
+}
+
+.get-connected-text {
+  font-size: 0.9em;
+}
+
+.Footer-navigation-content {
+  display: Flex;
+  padding: 1em 1em 1em 1em;
+}
+
+.Footer-navigation {
+  font-size: 1em;
+  color: #5d5b6a;
+  text-decoration: none;
+  padding: 0em 0.5em 1em 0.5em;
+}
+
+.Footer-navigation:hover {
+  font-weight: 900;
+  color: #5d5b6a;
+}
+/*# sourceMappingURL=Footer.css.map */

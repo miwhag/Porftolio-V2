@@ -1,12 +1,13 @@
 import React from 'react'
-
+import Fade from 'react-reveal/Fade'
 
 export default function HomePageBlocks(){
     return (
 
             <section className="Skills-main-container">
                 <div className="Skills-about-me-greeting">
-                    <h1>Nice to Meet You.</h1>
+                <Fade top><h1>Nice to Meet You.</h1>
+                   <div id="Skills-greeting-block"></div></Fade> 
                     <p> Driven by curiousity, new adventures and challenges, I previously worked in the pastry industry as a cake decorator, food stylist, tutorial writer and production assistant. <br></br><br></br>
                     Eventually I found myself in the insurance industry, but throughout all of my  experiences always let my creativity be my driving force. Currently I am working towards being a Flatiron School graduate as of April 2020, and excited to be a part of the Denver Tech Community. <br></br></p>
                 </div>

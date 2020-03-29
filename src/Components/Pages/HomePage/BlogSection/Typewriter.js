@@ -1,17 +1,17 @@
-import React, { Component } from 'react'
-import Typical from 'react-typical'
-import '../../../../Styles/HomePage/Typewriter.scss'
+import React, { Component } from 'react';
+import Typical from 'react-typical';
+import '../../../../Styles/HomePage/Typewriter.scss';
 
 
 export default class Typewriter extends Component {
     render(){
         return(
+            <div id="Blog-section-container">
                 <div className="typewriter">
-                    <h1 className="Typewriter-Header">Where I talk about </h1>
-                    <a href ="https://medium.com/@miwhag" target="_blank" className="Typewriter-medium-link"><img className="Typewriter-green-icon" src="https://i.ibb.co/4KyFtHL/VIEW-BLOGS-2.png" alt="green-arrow"/></a>
+                <h1 className="Typewriter-Header">Exploring</h1>
                 <Typical 
                     steps={[
-                        'Coding',
+                        'Code',
                         1000,
                         'Bootcamp Life',
                         1000, 
@@ -28,8 +28,14 @@ export default class Typewriter extends Component {
                     loop={Infinity}
                     wrapper="Typewriter-response-wrapper"
                 />
-               
                 </div>
+                <a href ="https://medium.com/@miwhag" 
+                    target="_blank" 
+                    className="Typewriter-medium-link">
+                        <img className="Typewriter-green-icon" src="https://i.ibb.co/4KyFtHL/VIEW-BLOGS-2.png" alt="green-arrow"/>
+                </a>
+                </div>
+
         )
     }
   }
