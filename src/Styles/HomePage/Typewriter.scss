@@ -17,22 +17,6 @@
     }
 
 
-    #Blog-title-container{
-      #Blog-title{
-        font-size: 2.2em;
-        display: flex;
-        justify-content: flex-end;
-        font-family: $primaryFont;
-        text-transform: uppercase;
-        letter-spacing: 0.2em;
-      }
-      
-      display: grid;
-      justify-content: flex-end;
-      margin: 4em 8em -6em 3em;
-  
-    }
-
     .BlogHome-typewriter-container{
         align-self: center;
         display: flex;
@@ -61,9 +45,16 @@
   
   .Typewriter-medium-link{
       text-decoration: none;
+      font-size: 1.7em;
       color: #444444;
-      font-size: 1em;
+      text-transform: uppercase;
+      :hover{
+        text-decoration: none;
+      }
+
   }
+
+
   
   .Typewriter-green-icon{
      height: 4em;

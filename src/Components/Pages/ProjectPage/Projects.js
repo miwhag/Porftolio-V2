@@ -3,19 +3,15 @@ import CoffeeGIF from '../../../Images/coffeeGIF.gif'
 import FrisbeeGIF from '../../../Images/ultimate.gif'
 import PortfolioGIF from '../../../Images/Portfolio.GIF'
 import Mod4Project from '../../../Images/Mod4Project.gif'
-import Fade from 'react-reveal';
 import '../../../Styles/Projects/Projects.scss'
 
 export default function Projects() {
     return (
         <div className="Project-section-container">
-
-        <Fade top delay={1300}>
             <div id="Project-title-container">
             <h1 className="Project-section-title">Projects</h1>
                 <div id="Project-title-block"></div>
             </div>
-        </Fade>
         
            <main className="Project-project-container">
                 <div className="project">

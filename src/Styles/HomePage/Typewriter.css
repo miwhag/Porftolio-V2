@@ -69,28 +69,6 @@ table {
   margin: 2em 0em 2em 10em;
 }
 
-#Blog-title-container {
-  display: -ms-grid;
-  display: grid;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  margin: 4em 8em -6em 3em;
-}
-
-#Blog-title-container #Blog-title {
-  font-size: 2.2em;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-}
-
 .BlogHome-typewriter-container {
   -ms-flex-item-align: center;
       align-self: center;
@@ -128,8 +106,13 @@ Typewriter-response-wrapper {
 
 .Typewriter-medium-link {
   text-decoration: none;
+  font-size: 1.7em;
   color: #444444;
-  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.Typewriter-medium-link :hover {
+  text-decoration: none;
 }
 
 .Typewriter-green-icon {

@@ -6,6 +6,8 @@ import '../../../../Styles/HomePage/Typewriter.scss';
 export default class Typewriter extends Component {
     render(){
         return(
+        <>
+
             <div id="Blog-section-container">
                 <div className="typewriter">
                 <h1 className="Typewriter-Header">Exploring</h1>
@@ -32,13 +34,14 @@ export default class Typewriter extends Component {
                 <a href ="https://medium.com/@miwhag" 
                     target="_blank" 
                     className="Typewriter-medium-link">
-                        <img className="Typewriter-green-icon" src="https://i.ibb.co/4KyFtHL/VIEW-BLOGS-2.png" alt="green-arrow"/>
+                        View My Blogs
                 </a>
                 </div>
-
+            </>
         )
     }
   }
+
 
  
   

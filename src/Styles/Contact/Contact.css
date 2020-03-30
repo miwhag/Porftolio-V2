@@ -1,0 +1,210 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+#MG-logo {
+  width: 4em;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.Contact-main-container {
+  margin: 6em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ContactMe-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 55em;
+  -webkit-box-shadow: 5px 10px 40px #888888;
+          box-shadow: 5px 10px 40px #888888;
+  border-radius: 2em 2em 2em 2em;
+}
+
+.ContactMe-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 60%;
+  height: 32em;
+  padding-top: 2em;
+  border-radius: 2em 0em 0em 2em;
+}
+
+.ContactMe-color {
+  width: 80%;
+  background: #1e1e1e;
+  background: linear-gradient(45deg, #1e1e1e 34%, rgba(61, 61, 61, 0.972426) 100%);
+  border-radius: 0em 2em 2em 0em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.ContactMe-form-input {
+  margin: 1em 4em 1em 4em;
+  font-size: 1em;
+  color: grey;
+  height: 2.5em;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid grey;
+}
+
+.ContactMe-form-input::-webkit-input-placeholder {
+  color: grey;
+}
+
+.ContactMe-form-input:-ms-input-placeholder {
+  color: grey;
+}
+
+.ContactMe-form-input::-ms-input-placeholder {
+  color: grey;
+}
+
+.ContactMe-form-input::placeholder {
+  color: grey;
+}
+
+.ContactMe-form-submit {
+  font-size: 1em;
+  background-color: #fed020;
+  color: white;
+  border: none;
+  border-radius: 1em;
+  height: 2em;
+  width: 8em;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.ContactMe-form-submit:hover {
+  -webkit-box-shadow: 5px 5px 5px #888888;
+          box-shadow: 5px 5px 5px #888888;
+}
+
+.ContactMe-form-message {
+  margin: 1em 4.5em 1em 4.5em;
+  height: 7.5em;
+  font-size: 0.9em;
+  resize: vertical;
+  border-radius: 0.3em;
+  border: 0.5px solid grey;
+}
+
+.ContactMe-form-message:focus {
+  outline: none;
+}
+
+.ContactMe-greeting {
+  font-size: 10em;
+  color: #d5d5d5;
+  text-align: end;
+  font-weight: 900;
+}
+
+.ContactMe-form-failure-message {
+  color: red;
+  font-size: 0.9em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 1em;
+}
+
+.ContactMe-form-success-message {
+  color: #66d166;
+  font-size: 0.9em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 1em;
+}
+/*# sourceMappingURL=Contact.css.map */
