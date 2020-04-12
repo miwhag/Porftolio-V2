@@ -21,6 +21,10 @@ body{
     color:#4d4646;
 }
 
+.Mobile-link-content{
+    display:none;
+}
+
 header {
         display: flex;
         justify-content: flex-end;
@@ -91,6 +95,16 @@ header {
 
     .HomePage-main-container svg{
         display:none;
+    }
+
+    .Mobile-link-content{
+        display:block;
+    }
+
+    .Footer-links{
+        width: 25px;
+        height: 25px;
+        margin: 10px;
     }
     .greeting-container{
         font-size: 40px;

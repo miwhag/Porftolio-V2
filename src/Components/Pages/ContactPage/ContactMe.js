@@ -66,7 +66,8 @@ export default class ContactMe extends Component {
             <>
             <div className="ContactMe-container">
                 <form onSubmit={this.handleSubmit} className="ContactMe-form">
-                <img id="MG-logo" src="https://i.ibb.co/wKZY2vG/MG-2.png" alt="MG" border="0"/>
+                <img id="MG-logo-yellow" src="https://i.ibb.co/L512GS8/MG.png" alt="MG" border="0"/>
+                <img id="MG-logo-brown" src="https://i.ibb.co/wKZY2vG/MG-2.png" alt="MG" border="0"/>
           
                     <input 
                         className="ContactMe-form-input" 
