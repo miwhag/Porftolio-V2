@@ -8,8 +8,8 @@ export default function HomePageBlocks(){
                 <div className="Skills-about-me-greeting">
                 <Fade top><h1>Nice to Meet You.</h1>
                    <div id="Skills-greeting-block"></div></Fade> 
-                    <p> Driven by curiousity, new adventures and challenges, I previously worked in the pastry industry as a cake decorator, food stylist, tutorial writer and production assistant. <br></br><br></br>
-                    Eventually I found myself in the insurance industry, but throughout all of my  experiences always let my creativity be my driving force. Currently I am working towards being a Flatiron School graduate as of April 2020, and excited to be a part of the Denver Tech Community. <br></br></p>
+                    <p> Driven by curiousity, constant learning, new adventures and challenges. Before tech I previously worked in the pastry industry as a cake decorator, food stylist, tutorial writer and production assistant. <br></br><br></br>
+                    Eventually I found myself in the insurance industry, but throughout all of my experiences was always striving to bring as much creativity into my work. As of April 2020 I will be a Flatiron School graduate of the Fullstack program and excited to be a part of the Denver Tech Community. <br></br></p>
                 </div>
         
                 <div className="Skills-box-container">
@@ -22,6 +22,7 @@ export default function HomePageBlocks(){
                             <li>HTML/CSS</li>
                             <li>Javascript</li>
                             <li>Bootstrap</li>
+                        
                         </ul>
                     </section>
 
@@ -32,7 +33,7 @@ export default function HomePageBlocks(){
                             <ul className="Skills-box-text-content">
                                 <li>Ruby </li>
                                 <li>Ruby on Rails</li>
-                                <li>Express</li>
+                                <li>Node.js</li>
                                 <li>Heroku</li>
                             </ul>
                     </section>
@@ -43,7 +44,6 @@ export default function HomePageBlocks(){
                             <p className="Skills-header-sub-text"> Design is powerful and I am excited by the process of bringing things alive with the use of it.</p>
                             <ul className="Skills-box-text-content">
                                 <li>Canva</li>
-                                <li>Miro</li>
                                 <li>Figma</li>
                                 <li>Photoshop</li>
                             </ul>

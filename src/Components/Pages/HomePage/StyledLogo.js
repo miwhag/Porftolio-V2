@@ -21,6 +21,7 @@ export const StyledLogo = styled(ReactLogo)`
 border: none;
 width: 52em;
 height: 42em;
+align-self: flex-end;
 
 #circle{
   animation: ${pulse} infinite 6s linear;

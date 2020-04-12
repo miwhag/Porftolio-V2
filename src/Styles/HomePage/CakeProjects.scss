@@ -26,3 +26,22 @@
     justify-content: center;
     margin: 2em 0em 0em 0em;
 }
+
+
+@media screen and (max-width: 1024px){
+
+    .CakeProjects{
+      display: none;
+    }
+    
+}
+
+
+@media screen and (max-width: 450px){
+
+    .CakeProjects{
+        display: none;
+      }
+      
+
+}

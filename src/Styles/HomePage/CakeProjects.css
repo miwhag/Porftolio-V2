@@ -84,4 +84,16 @@ table {
   text-transform: uppercase;
   letter-spacing: 0.2em;
 }
+
+@media screen and (max-width: 1024px) {
+  .CakeProjects {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .CakeProjects {
+    display: none;
+  }
+}
 /*# sourceMappingURL=CakeProjects.css.map */

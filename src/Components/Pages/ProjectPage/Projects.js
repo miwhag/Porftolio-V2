@@ -17,28 +17,28 @@ export default function Projects() {
                 <div className="project">
             
                 <a href="https://github.com/miwhag/Mod-2-project-coffee-frontend" target="_blank"><img className="Project-github-logo" src="https://i.ibb.co/NyYsL14/github-2.png" alt="github-logo"/></a> 
-                    <h1 className="project-title">Mod 2: Coffee Inventory App</h1>
+                    <h1 className="project-title">Coffee Inventory App</h1>
                     <p className="project-about"> A inventory app for a coffee shop to keep track of the grounds they have on hand.</p>
                     <img className="coffee-gif" src={CoffeeGIF} alt="coffee-gif"/>  
                     </div>
 
                     <div className="project">
                     <a href="https://github.com/miwhag/ultimate-frontend" target="_blank"><img className="Project-github-logo" src="https://i.ibb.co/NyYsL14/github-2.png" alt="github-logo"/></a> 
-                    <h1 className="project-title">Mod 3: Ultimate Frisbee App</h1>
+                    <h1 className="project-title">Ultimate Frisbee App</h1>
                     <p className="project-about"> A schedule app and roster page for a ultimate frisbee team.</p>
                     <img className="frisbee-gif" src={FrisbeeGIF} alt="frisbee-gif"/>
                     </div>
 
                     <div className="project">
                     <a href="https://github.com/miwhag/2020_Portfolio-" target="_blank"><img className="Project-github-logo" src="https://i.ibb.co/NyYsL14/github-2.png" alt="github-logo"/></a> 
-                    <h1 className="project-title">Portfolio</h1>
-                    <p className="project-about"> React Porftolio you are on currently.</p>
+                    <h1 className="project-title">Portfolio - V1</h1>
+                    <p className="project-about"> React Portfolio you are on currently.</p>
                     <img className="portfolio-gif" src={PortfolioGIF} alt="portfolio-gif"/> 
                     </div>   
 
                     <div className="project">
                     <a href="https://github.com/miwhag/wildlife_rescue_finder_frontend" target="_blank"><img className="Project-github-logo" src="https://i.ibb.co/NyYsL14/github-2.png" alt="github-logo"/></a> 
-                    <h1 className="project-title">Mod 4: Rescue Finder</h1>
+                    <h1 className="project-title">Rescue Finder</h1>
                     <p className="project-about">All about the Australian bush fires and information on rescues in the area.</p>
                     <img className="mod-4" src={Mod4Project} alt="mod4-gif"/> 
                     </div>

@@ -114,21 +114,12 @@ grid-template-rows: repeat(4, auto)
 
 @media screen and (max-width: 450px){
 
-    .Skills-about-me-paragraph{
-        width: 22em;
+    .Skills-about-me-greeting{
+        display:none;
     }
 
     .Skills-box-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 2em;
-    }
-
-    .box-1, .box-2, .box-3{
-        width: 20em;
-        height: 15em;
-        justify-content: center;
+        display:none
     }
 
 }

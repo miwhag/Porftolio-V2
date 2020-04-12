@@ -34,7 +34,7 @@ export default class Typewriter extends Component {
                 <a href ="https://medium.com/@miwhag" 
                     target="_blank" 
                     className="Typewriter-medium-link">
-                        View My Blogs
+                        View Blogs
                 </a>
                 </div>
             </>

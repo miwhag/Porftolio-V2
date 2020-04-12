@@ -73,8 +73,9 @@ table {
   color: #414040;
 }
 
-.resume-image {
-  width: 25em;
+.resume-pdf {
+  width: 45em;
+  height: 33em;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;

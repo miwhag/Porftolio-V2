@@ -63,7 +63,7 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   min-height: 12vh;
-  overflow: hidden;
+  overflow-x: hidden;
   background: white;
   background: -webkit-gradient(linear, left top, left bottom, from(white), to(#ededed));
   background: linear-gradient(180deg, white 0%, #ededed 100%);
@@ -110,12 +110,6 @@ nav .burger-icon div {
   background-color: white;
   border-radius: 5px;
   margin: 7px;
-}
-
-@media screen and (max-width: 1034px) {
-  nav .nav-links {
-    width: 55%;
-  }
 }
 
 @media screen and (max-width: 600px) {

@@ -189,34 +189,21 @@ main {
 }
 
 @media screen and (max-width: 450px) {
-  .Skills-about-me-paragraph {
-    width: 22em;
+  .Skills-about-me-greeting {
+    display: none;
   }
   .Skills-box-container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding: 2em;
-  }
-  .box-1, .box-2, .box-3 {
-    width: 20em;
-    height: 15em;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    display: none;
   }
 }
 
 main {
   display: -ms-grid;
   display: grid;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 * {
@@ -230,6 +217,7 @@ main {
   -ms-grid-rows: (auto)[3];
       grid-template-rows: repeat(3, auto);
   font-family: 'Raleway', sans-serif;
+  width: 100vw;
   color: #4d4646;
 }
 
@@ -237,6 +225,9 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   background: #1e1e1e;
   background: linear-gradient(45deg, #1e1e1e 34%, rgba(61, 61, 61, 0.972426) 100%);
 }
@@ -245,9 +236,6 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
 }
 
 .greeting-container {
@@ -276,6 +264,10 @@ header {
   height: 4px;
   background-color: whitesmoke;
   margin: 0em 7em 0em 7em;
+}
+
+#miwha-phone-image {
+  display: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -314,12 +306,40 @@ header {
   }
   .greeting-container {
     font-size: 40px;
-    height: 100vh;
     display: -ms-grid;
     display: grid;
     -ms-flex-line-pack: center;
         align-content: center;
     margin-left: 2.2em;
+  }
+  #Divider {
+    display: none;
+  }
+  header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 90vh;
+  }
+  #miwha-phone-image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 160px;
+    margin: 70px 30px -30px 30px;
   }
 }
 /*# sourceMappingURL=HomePage.css.map */

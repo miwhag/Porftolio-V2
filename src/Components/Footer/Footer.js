@@ -1,7 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import Signature from '../../Images/Signature.png'
-import ScrollLink from './ScrollLink'
 import '../../Styles/Footer/Footer.css'
 
 
@@ -35,8 +34,7 @@ export default function Footer() {
 
                             <Link className="Footer-navigation"to='/download_resume'> Resume</Link> \ 
                             <Link className="Footer-navigation" to='/contact'>Contact</Link> \ 
-                            <ScrollLink /> \
-                            <Link className="Footer-navigation" to='/projects'>Projects</Link> \ 
+                            <Link className="Footer-navigation" to='/projects'>Projects</Link> 
                         </section>
                     </div>
                 </main>

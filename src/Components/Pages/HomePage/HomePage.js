@@ -7,31 +7,34 @@ import Divider from '../../Divider'
 import CakeProjects from '../HomePage/CakeSection/CakeProjects'
 import Footer from '../../Footer/Footer'
 import '../../../Styles/HomePage/HomePage.scss'
+import MiwhaPhoneImg from '../../../Images/1.png'
 
 export default function HomePage() {
     return (
         <div className="HomePage-main-container">
                  
             <header>
-                <HomePageGreeting />
-                <div id="StyledLogo-container">
+                <img src={MiwhaPhoneImg} alt="phone" id="miwha-phone-image" />
+                <HomePageGreeting /> 
+                 <div id="StyledLogo-container">
                     <StyledLogo />
-                </div>   
-            </header>
+                </div>    
+            </header> 
 
-            <main>
+            <main> 
                 <Skills />
-                <Divider />
+                <Divider /> 
                 <Blog />
-                <Divider />
+                 <Divider /> 
                 <CakeProjects />
-                <Footer />
-            </main>
-
+                <Footer /> 
+            </main> 
+ 
             <footer> 
     
-            </footer>
+            </footer> 
 
-        </div>
+         </div> 
+       
     )
 }

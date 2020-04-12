@@ -17,7 +17,7 @@ export default function DownloadResume() {
             </div>
          
             <div className="resume-download-container">
-            <img className="resume-image" src="https://i.ibb.co/nbVcQWY/Miwha-Geschwind-Resume.png" alt="Miwha-Geschwind-Resume"/>
+            <iframe title="resume" className="resume-pdf" src={PDF}></iframe>
             <div className="button-container">
             <a href = {PDF} target = "_blank"><button class="download-resume-button">Download PDF</button></a>      
             </div> 

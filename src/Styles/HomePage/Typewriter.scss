@@ -1,11 +1,7 @@
 @import '../meyerReset';
 @import '../variables';
 
-.Typewriter-blog-post-header{
-    font-size: 2.3em;
-    padding: 1em 1em 0em 1em;
-  }
-  
+
   .BlogHome-container{
       display: flex;
     }
@@ -16,12 +12,13 @@
       margin: 2em 0em 2em 10em;
     }
 
-
-    .BlogHome-typewriter-container{
-        align-self: center;
-        display: flex;
-      flex-direction: column;
-    }
+ 
+  .BlogHome-typewriter-container{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: -6em;
+  }
   
   .typewriter{
       display:flex;
@@ -30,7 +27,7 @@
   .Typewriter-Header{
       color: #a96851;
       font-size: 42px;
-      margin: 0.5em 0.5em 0em 0em;
+      margin: 0.5em 0.5em 0.5em 0em;
       font-family: 'Noto Sans JP', sans-serif;
       font-weight: 700;
   }
@@ -44,21 +41,60 @@
   }
   
   .Typewriter-medium-link{
+      
       text-decoration: none;
-      font-size: 1.7em;
-      color: #444444;
+      font-size: 1.6em;
+      padding-left: 7em;
+      color:grey;
       text-transform: uppercase;
-      :hover{
-        text-decoration: none;
-      }
+      letter-spacing: 0.1em;
+    &:hover{
+      text-decoration: none;
+      font-size: 1.62em;
+      color:rgb(129, 200, 129);
 
+    }
   }
 
 
-  
-  .Typewriter-green-icon{
-     height: 4em;
+  @media screen and (max-width: 768px){
+
+    .HomePage-main-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .greeting-container{
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+
+    #Blog-section-container{
+      display: none;
+    }
+    .BlogHome-typewriter-container{
+      display:none;
+    }
+    .BlogHome-container{
+      display: none;
+    }
+}
+
+
+@media screen and (max-width: 450px){
+
+  #Blog-section-container{
+    display: none;
   }
-  
-  
-  
+
+  .BlogHome-typewriter-container{
+    display:none;
+  }
+
+  .BlogHome-container{
+    display: none;
+  }
+
+}

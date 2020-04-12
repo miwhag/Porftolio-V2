@@ -141,4 +141,16 @@ footer {
   font-weight: 900;
   color: #5d5b6a;
 }
+
+@media screen and (max-width: 1024px) {
+  .Footer-main-content {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .Footer-main-content {
+    display: none;
+  }
+}
 /*# sourceMappingURL=Footer.css.map */
