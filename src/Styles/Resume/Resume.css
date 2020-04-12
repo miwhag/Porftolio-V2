@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,700,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Raleway:300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -74,6 +75,10 @@ table {
   color: #414040;
 }
 
+#Resume-title-block {
+  display: none;
+}
+
 #img-resume {
   display: none;
 }
@@ -140,13 +145,53 @@ table {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     padding: none;
+    padding: 1.5em 2em 2em 2em;
+  }
+  #Resume-title-block {
+    display: block;
+    width: 90px;
+    height: 3px;
+    background-color: #b8a9a9;
+    margin: 15px 15px 35px 15px;
+  }
+  #Resume-title-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   #Resume-section-title {
-    display: none;
+    display: block;
+    font-size: 27px;
+    color: grey;
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    -webkit-transform: none;
+            transform: none;
+    margin: 0em;
+    padding: 1.5em 1.5em 0em 1.5em;
+    text-align: center;
+  }
+  .resume-download-container {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    background-color: white;
+    padding: 2em;
+    margin: 0em;
   }
   .resume-pdf {
     display: none;

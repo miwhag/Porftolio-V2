@@ -14,6 +14,8 @@ export default function DownloadResume() {
 
             <div id="Resume-title-container">
             <h1 id="Resume-section-title">Resume</h1>
+            <div id="Resume-title-block"></div>
+
             </div>
          
             <div className="resume-download-container">
