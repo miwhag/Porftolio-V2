@@ -1,24 +1,32 @@
 @import '../meyerReset';
 @import '../variables';
 
+
 .resume{
 	display: flex;
     justify-content: center;
-    padding: 0em 3em 3em 3em;
+	padding: 0em 3em 3em 3em;
 }
 
-#Resume-title-container{
-	#Resume-section-title{
-	  font-size: 2.5em;
-	  font-family: $primaryFont;
-	  text-transform: uppercase;
-	  letter-spacing: 0.2em;
-	  transform: rotate(270deg);
-	  margin: 3.7em -2.7em 0em 0em;
-	  color: rgb(65, 64, 64);
-	}
-  }
 
+#Resume-section-title{
+	font-size: 2.5em;
+	font-family: $primaryFont;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	transform: rotate(270deg);
+	margin: 3.7em -2.7em 0em 0em;
+	color: rgb(65, 64, 64);
+}
+
+#Resume-title-block{
+	display:none;
+	
+}
+  
+#img-resume{
+	display:none;
+}
 
 .resume-pdf{
 	width: 45em;
@@ -35,7 +43,8 @@
 }
 
 .resume-download-container{
-    border: 1px solid rgba(0,0,0,.125);
+	border: 1px solid rgba(0,0,0,.125);
+	background-color: white;
 	padding: 3em 3em 2em 3em;
 	margin: 3em;
 }
@@ -68,4 +77,61 @@
 
         
 
-     
+
+
+@media screen and (max-width: 450px){
+
+	.resume{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: none;
+		padding: 1.5em 2em 2em 2em;
+	}
+
+	#Resume-title-block{
+		display:block;
+		width: 90px;
+		height: 3px;
+		background-color:  rgb(184, 169, 169);
+		margin: 15px 15px 35px 15px;
+	}
+
+	#Resume-title-container{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#Resume-section-title{
+		display: block;
+		font-size: 27px;
+		color: grey;
+		font-family: $primaryFont;
+		text-transform: uppercase;
+		letter-spacing: 0.2em;
+		transform: none;
+		margin: 0em;
+		padding: 1.5em 1.5em 0em 1.5em;
+		text-align: center;
+	}
+
+	.resume-download-container{
+		border: 1px solid rgba(0,0,0,.125);
+		background-color: white;
+		padding: 2em;
+		margin: 0em;
+	}
+	
+  
+	.resume-pdf{
+		display:none;
+	}
+
+	#img-resume{
+		display:block;
+		width: 230px;
+
+	}
+}
+	
