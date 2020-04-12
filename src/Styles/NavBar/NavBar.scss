@@ -6,7 +6,7 @@ nav{
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    min-height: 12vh;
+    height: 100px;
     overflow-x: hidden;
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(237,237,237,1) 100%);
@@ -35,17 +35,8 @@ nav{
         }
 
         .burger-icon{
-            margin: 10px;
             display: none;
             cursor: pointer;
-
-            div{
-                width: 25px;
-                height: 2px;
-                background-color: white;
-                border-radius: 5px;
-                margin: 7px;
-            }
         }
 
 }
@@ -58,19 +49,12 @@ nav{
 }
 
 @media screen and (max-width: 600px){
+
+
     nav .nav-links{
              display: none;
     }
 
-    nav .dropdown{
-        display: inline-block;
-        position: relative;
-    }
-
-    nav  .dropdown .hamburger-button {
-        display: inline-block;
-        cursor: pointer;
-    }
 
     nav .burger-icon{
         display: block;

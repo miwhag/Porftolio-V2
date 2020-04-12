@@ -1,9 +1,5 @@
 import React from 'react'
-import CoffeeGIF from '../../../Images/coffeeGIF.gif'
-import FrisbeeGIF from '../../../Images/ultimate.gif'
-import PortfolioGIF from '../../../Images/Portfolio.GIF'
-import Mod4Project from '../../../Images/Mod4Project.gif'
-import '../../../Styles/Projects/Projects.scss'
+import '../../../Styles/Projects/Projects.css'
 
 export default function Projects() {
     return (
@@ -19,28 +15,28 @@ export default function Projects() {
                 <a href="https://github.com/miwhag/Mod-2-project-coffee-frontend" target="_blank"><img className="Project-github-logo" src="https://i.ibb.co/NyYsL14/github-2.png" alt="github-logo"/></a> 
                     <h1 className="project-title">Coffee Inventory App</h1>
                     <p className="project-about"> A inventory app for a coffee shop to keep track of the grounds they have on hand.</p>
-                    <img className="coffee-gif" src={CoffeeGIF} alt="coffee-gif"/>  
+                    <img className="coffee-gif" src="https://media.giphy.com/media/Y0s3SagTdHtxi1y0fG/giphy.gif" alt="coffee-gif"/>  
                     </div>
 
                     <div className="project">
                     <a href="https://github.com/miwhag/ultimate-frontend" target="_blank"><img className="Project-github-logo" src="https://i.ibb.co/NyYsL14/github-2.png" alt="github-logo"/></a> 
                     <h1 className="project-title">Ultimate Frisbee App</h1>
                     <p className="project-about"> A schedule app and roster page for a ultimate frisbee team.</p>
-                    <img className="frisbee-gif" src={FrisbeeGIF} alt="frisbee-gif"/>
+                    <img className="frisbee-gif" src="https://media.giphy.com/media/SA5pNfjikBPS4QEdWL/giphy.gif" alt="frisbee-gif"/>
                     </div>
 
                     <div className="project">
                     <a href="https://github.com/miwhag/2020_Portfolio-" target="_blank"><img className="Project-github-logo" src="https://i.ibb.co/NyYsL14/github-2.png" alt="github-logo"/></a> 
                     <h1 className="project-title">Portfolio - V1</h1>
                     <p className="project-about"> React Portfolio you are on currently.</p>
-                    <img className="portfolio-gif" src={PortfolioGIF} alt="portfolio-gif"/> 
+                    <img className="portfolio-gif" src="https://media.giphy.com/media/dyjHz8jNS0gZv7T4HM/giphy.gif" alt="portfolio-gif"/> 
                     </div>   
 
                     <div className="project">
                     <a href="https://github.com/miwhag/wildlife_rescue_finder_frontend" target="_blank"><img className="Project-github-logo" src="https://i.ibb.co/NyYsL14/github-2.png" alt="github-logo"/></a> 
                     <h1 className="project-title">Rescue Finder</h1>
                     <p className="project-about">All about the Australian bush fires and information on rescues in the area.</p>
-                    <img className="mod-4" src={Mod4Project} alt="mod4-gif"/> 
+                    <img className="mod-4" src="https://media.giphy.com/media/XClPyLQIs3S7UStP1s/giphy.gif" alt="mod4-gif"/> 
                     </div>
 
 

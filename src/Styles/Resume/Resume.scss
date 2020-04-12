@@ -1,24 +1,27 @@
 @import '../meyerReset';
 @import '../variables';
 
+
 .resume{
 	display: flex;
     justify-content: center;
-    padding: 0em 3em 3em 3em;
+	padding: 0em 3em 3em 3em;
 }
 
-#Resume-title-container{
-	#Resume-section-title{
-	  font-size: 2.5em;
-	  font-family: $primaryFont;
-	  text-transform: uppercase;
-	  letter-spacing: 0.2em;
-	  transform: rotate(270deg);
-	  margin: 3.7em -2.7em 0em 0em;
-	  color: rgb(65, 64, 64);
-	}
-  }
 
+#Resume-section-title{
+	font-size: 2.5em;
+	font-family: $primaryFont;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	transform: rotate(270deg);
+	margin: 3.7em -2.7em 0em 0em;
+	color: rgb(65, 64, 64);
+}
+  
+#img-resume{
+	display:none;
+}
 
 .resume-pdf{
 	width: 45em;
@@ -35,7 +38,8 @@
 }
 
 .resume-download-container{
-    border: 1px solid rgba(0,0,0,.125);
+	border: 1px solid rgba(0,0,0,.125);
+	background-color: white;
 	padding: 3em 3em 2em 3em;
 	margin: 3em;
 }
@@ -68,4 +72,31 @@
 
         
 
-     
+
+
+@media screen and (max-width: 450px){
+
+	
+
+
+	.resume{
+		display: flex;
+		justify-content: center;
+		padding: none;
+	}
+
+	#Resume-section-title{
+	  display: none;
+	}
+  
+	.resume-pdf{
+		display:none;
+	}
+
+	#img-resume{
+		display:block;
+		width: 230px;
+
+	}
+}
+	

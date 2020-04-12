@@ -4,6 +4,7 @@
 */
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP:100,300,700,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Raleway:300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300,400&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -62,7 +63,7 @@ table {
   padding: 0em 3em 3em 3em;
 }
 
-#Resume-title-container #Resume-section-title {
+#Resume-section-title {
   font-size: 2.5em;
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
@@ -71,6 +72,10 @@ table {
           transform: rotate(270deg);
   margin: 3.7em -2.7em 0em 0em;
   color: #414040;
+}
+
+#img-resume {
+  display: none;
 }
 
 .resume-pdf {
@@ -95,6 +100,7 @@ table {
 
 .resume-download-container {
   border: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: white;
   padding: 3em 3em 2em 3em;
   margin: 3em;
 }
@@ -127,5 +133,27 @@ table {
 .myButton:active {
   position: relative;
   top: 1px;
+}
+
+@media screen and (max-width: 450px) {
+  .resume {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: none;
+  }
+  #Resume-section-title {
+    display: none;
+  }
+  .resume-pdf {
+    display: none;
+  }
+  #img-resume {
+    display: block;
+    width: 230px;
+  }
 }
 /*# sourceMappingURL=Resume.css.map */
