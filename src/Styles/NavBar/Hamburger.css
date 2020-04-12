@@ -70,6 +70,10 @@
   font-size: 27px;
 }
 
+.bm-item:focus {
+  outline: none;
+}
+
 .bm-overlay {
   display: -webkit-box;
   display: -ms-flexbox;
