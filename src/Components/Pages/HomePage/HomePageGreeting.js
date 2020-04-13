@@ -11,7 +11,7 @@ export default function HomePageGreeting() {
         </p>
 
         <section className="Mobile-link-content">
-            <a href ="mailto:miwhag@gmail.com"><img src={"https://i.ibb.co/HCqybSP/mail-2.png"} className="Footer-links" alt="signature"/></a>  
+            <a href ="mailto:miwha.geschwind@gmail.com"><img src={"https://i.ibb.co/HCqybSP/mail-2.png"} className="Footer-links" alt="signature"/></a>  
             <a href ="https://github.com/miwhag" target="_blank"><img src={"https://i.ibb.co/NyYsL14/github-2.png"} alt="signature" className="Footer-links"/></a>  
             <a href ="https://www.linkedin.com/in/miwha-geschwind/" target="_blank"><img src={"https://i.ibb.co/fqvzWXm/linkedin-4.png"} className="Footer-links" alt="signature"/></a>  
             <a href ="https://medium.com/@miwhag" target="_blank"><img src={"https://i.ibb.co/SN6dkxZ/medium.png"} className="Footer-links"alt="phone"/></a>  
