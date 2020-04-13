@@ -21,6 +21,10 @@ body{
     color:#4d4646;
 }
 
+.Mobile-link-content{
+    display:none;
+}
+
 header {
         display: flex;
         justify-content: flex-end;
@@ -61,36 +65,92 @@ header {
     display:none;
 }
 
-@media screen and (max-width: 768px){
-
-    .HomePage-main-container{
-        display: flex;
-        flex-direction: column;
-    }
-    .greeting-container{
-        font-size: 30px;
-    }
-}
 
 
 @media screen and (max-width: 1024px){
 
-    .HomePage-main-container{
-        display: flex;
-        flex-direction: column;
+    .HomePage-main-container svg{
+        display:none;
+    }
+
+    .Mobile-link-content{
+        display:block;
+    }
+
+    .Footer-links{
+        width: 25px;
+        height: 25px;
+        margin: 10px;
     }
     .greeting-container{
         font-size: 30px;
+        display: contents;
+        align-content: center;
+        margin-left: 2.2em;
+        #title{
+            font-size: 18px;
+        }
+        #about{
+            display: flex;
+            font-size: 14px;
+            padding: 15px;
+            font-weight:300;
+            margin-top: 0px;
+            width: 350px;
+            text-align: center;
+            color: rgb(184, 169, 169);
+            line-height: 19px;
+            border-radius: 5px;
+            font-family: $secondaryFont;
+            }
     }
+
+    #Divider{
+        display:none;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 120vh;
+
+    }
+
+    #miwha-phone-image{
+        display: flex;
+        align-items: center;
+        width: 140px;
+        margin: 50px 0px 20px 0px;
+        // margin-top: -130px;
+    }
+
+    .Skills-about-me-greeting{
+        display:none;
+    }
+
+    .Skills-box-container{
+        display:none;
+    }
+
 }
 
 
-@media screen and (max-width: 450px){
-
-    
+@media screen and (max-width: 600px){
 
     .HomePage-main-container svg{
         display:none;
+    }
+
+    .Mobile-link-content{
+        display:block;
+    }
+
+    .Footer-links{
+        width: 25px;
+        height: 25px;
+        margin: 10px;
     }
     .greeting-container{
         font-size: 40px;
@@ -133,6 +193,7 @@ header {
         align-items: center;
         width: 190px;
         margin-bottom: 20px;
+        margin-top: -40px;
     }
 }
 

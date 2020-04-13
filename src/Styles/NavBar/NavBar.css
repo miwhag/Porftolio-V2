@@ -105,6 +105,15 @@ nav .burger-icon {
   cursor: pointer;
 }
 
+@media screen and (max-width: 1000px) {
+  nav .burger-icon {
+    display: block;
+  }
+  nav .nav-links {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 600px) {
   nav .nav-links {
     display: none;
