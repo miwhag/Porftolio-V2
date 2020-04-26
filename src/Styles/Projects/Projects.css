@@ -159,6 +159,10 @@ table {
     width: 200px;
     font-size: 13px;
   }
+  #project-link {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+  }
   .coffee-gif, .frisbee-gif, .portfolio-gif, .mod-4, .capstone {
     width: 240px;
   }

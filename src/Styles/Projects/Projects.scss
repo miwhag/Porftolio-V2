@@ -115,6 +115,11 @@
     font-size: 13px;
 }
 
+#project-link{
+font-family: $primaryFont;
+text-align: center;
+}
+
 .coffee-gif, .frisbee-gif, .portfolio-gif, .mod-4, .capstone{
     width: 240px;
 }
@@ -126,6 +131,8 @@
    color: grey;
 
 }
+
+
 
 #Project-title-block{
     width: 90px;
