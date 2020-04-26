@@ -26,6 +26,13 @@ export default function Projects() {
                     <img className="mod-4" src="https://media.giphy.com/media/XClPyLQIs3S7UStP1s/giphy.gif" alt="mod4-gif"/> 
                 </div>
 
+                <div className="project">
+                    <a href="https://devsdoinggood.org/" target="_blank"><img className="Project-github-logo" src="https://i.imgur.com/c2uBBiG.png" alt="github-logo"/></a> 
+                    <h1 className="project-title">Devs Doing Good</h1>
+                    <p className="project-about">One of my goals for the year was to create a meetup group dedicated to service and volunteer projects. This is the site for that group.</p>
+                    <img className="mod-4" src="https://i.imgur.com/BFMPvkU.png" alt="mod4-gif"/> 
+                </div>
+
 
                 <div className="project">
                     <a href="https://dangerpets.com/" target="_blank"><img className="Project-github-logo" src="https://i.imgur.com/c2uBBiG.png" alt="github-logo"/></a> 

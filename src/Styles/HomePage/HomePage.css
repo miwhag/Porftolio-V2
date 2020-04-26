@@ -269,6 +269,7 @@ header {
 .greeting-container #title {
   font-size: 25px;
   color: #a96851;
+  padding-top: 5px;
 }
 
 .greeting-container #about {
