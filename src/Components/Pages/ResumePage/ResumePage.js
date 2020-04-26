@@ -2,7 +2,7 @@ import React from 'react'
 import PDF from '../../../Images/Resume.pdf';
 import Footer from '../../Footer/Footer'
 import '../../../Styles/Resume/Resume.css'
-import Fade from 'react-reveal';
+
 
 
 

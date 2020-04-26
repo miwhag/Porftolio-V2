@@ -8,18 +8,19 @@ export default function HomePageBlocks(){
                 <div className="Skills-about-me-greeting">
                 <Fade top><h1>Nice to Meet You.</h1>
                    <div id="Skills-greeting-block"></div></Fade> 
-                    <p> Driven by curiousity, constant learning, new adventures and challenges. Before tech I previously worked in the pastry industry as a cake decorator, food stylist, tutorial writer and production assistant. <br></br><br></br>
-                    Eventually I found myself in the insurance industry, but throughout all of my experiences was always striving to bring as much creativity into my work. As of April 2020 I will be a Flatiron School graduate of the Fullstack program and excited to be a part of the Denver Tech Community. <br></br></p>
+                    <p> Full stack web developer with a passion for frontend and design. My background in cake design and pastry art education contributed to my abilities to build not only interesting projects but visually captivating ones as well. <br></br><br></br>
+                    My technical experience includes Ruby on Rails, JavaScript, React, Node/Express, Objection.js/Knex, Postgres, and Sass. When not coding you can find me backpacking in the mountains with my two dogs or testing new recipes. <br></br></p>
                 </div>
         
                 <div className="Skills-box-container">
                     <section className="box-1">
                         <img class="Skills-icon" src="https://i.ibb.co/hK1jVjG/coding.png" alt="frontend"/>
                         <h3 className="Skills-header-text">Frontend</h3>
-                        <p className="Skills-header-sub-text"> I value clean websites, interesting interactivity, and captivating features. </p>
+                        <p className="Skills-header-sub-text"> I value minimalistic and modern websites, interesting interactivity, and captivating features. </p>
                         <ul className="Skills-box-text-content">
                             <li>React </li>
-                            <li>HTML/CSS</li>
+                            <li>HTML</li>
+                            <li>SCSS/CSS</li>
                             <li>Javascript</li>
                             <li>Bootstrap</li>
                         
@@ -33,8 +34,9 @@ export default function HomePageBlocks(){
                             <ul className="Skills-box-text-content">
                                 <li>Ruby </li>
                                 <li>Ruby on Rails</li>
-                                <li>Node.js</li>
-                                <li>Heroku</li>
+                                <li>Node.js/Express</li>
+                                <li>Objection.js/Knex</li>
+                                <li>Postgres</li>
                             </ul>
                     </section>
 
@@ -46,6 +48,7 @@ export default function HomePageBlocks(){
                                 <li>Canva</li>
                                 <li>Figma</li>
                                 <li>Photoshop</li>
+                                <li>Miro</li>
                             </ul>
                     </section>
                 </div>

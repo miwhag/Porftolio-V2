@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../../../Styles/HomePage/CakeProjects.css'
-import Carousel, { Dots } from '@brainhubeu/react-carousel';
+import Carousel  from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
 import Fade from 'react-reveal';
 
