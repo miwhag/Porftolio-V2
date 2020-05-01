@@ -9,7 +9,7 @@ export default function HomePageBlocks(){
                 <Fade top><h1>Nice to Meet You.</h1>
                    <div id="Skills-greeting-block"></div></Fade> 
                     <p> Full stack web developer with a passion for frontend and design. My background in cake design and pastry art education contributed to my abilities to build not only interesting projects but visually captivating ones as well. <br></br><br></br>
-                    My technical experience includes Ruby on Rails, JavaScript, React, Node/Express, Objection.js/Knex, Postgres, and Sass. When not coding you can find me backpacking in the mountains with my two dogs or testing new recipes. <br></br></p>
+                    My technical experience includes Ruby on Rails, JavaScript, HTML/CSS/SCSS, React, Node/Express, Objection.js/Knex and Postgres. When not coding you can find me backpacking in the mountains with my two dogs or testing new recipes. <br></br></p>
                 </div>
         
                 <div className="Skills-box-container">
