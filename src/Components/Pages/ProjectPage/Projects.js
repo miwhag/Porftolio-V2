@@ -12,7 +12,10 @@ export default function Projects() {
            <main className="Project-project-container">
 
                 <div className="project">
-                    <a href="https://github.com/miwhag/cake-frontend" target="_blank"><img className="Project-github-logo" src="https://i.ibb.co/NyYsL14/github-2.png" alt="github-logo"/></a> 
+                    <div>
+                        <a href="https://github.com/miwhag/cake-frontend" target="_blank"><img className="Project-github-logo" src="https://i.ibb.co/NyYsL14/github-2.png" alt="github-logo"/></a> 
+                        <a href="https://build-cake.firebaseapp.com/" target="_blank"><img className="Project-github-logo" src="https://i.imgur.com/c2uBBiG.png" alt="github-logo"/></a> 
+                    </div>
                     <h1 className="project-title">Build a Cake</h1>
                     <p className="project-about"> Build a virtual cake! Decide on flavors, finish and accents. </p>
                     <img className="capstone" src="https://media.giphy.com/media/Rhx2lZY8btpE0IFeOv/giphy.gif" alt="capstone"/> 
